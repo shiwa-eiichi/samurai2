@@ -70,7 +70,7 @@ header {
   z-index: 10;
 }
 
-#main-message {
+.main-message {
   position: absolute;
   top: 0;
   left: 0;
@@ -83,13 +83,13 @@ header {
   z-index: 11;
 }
 
-#main-message h1 {
+.main-message h1 {
   font-size: 60px;
   font-weight: bold;
   margin: 100px 0 0 50px;
 }
 
-#main-message p {
+.main-message p {
   font-size: 28px;
   margin: 0 0 0 50px;
 }
@@ -108,14 +108,15 @@ h3 {
 }
 
 #mission {
-  margin: 80px auto 80px auto;
-  width: 100px;
+  margin: 80px auto;
+  width: 100%;
 }
 
-#mission-flex {
-  width: 100px;
+.mission-flex {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 20px;
 }
 /*# sourceMappingURL=style.css.map */
